@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B414354D26908FE0CFD7E27 /* libPods-Neobis_iOS_UIScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */; };
+		CE50B72F2A0A74F500348E5C /* WeatherForWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */; };
+		CE50B7312A0A757800348E5C /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */; };
+		CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */; };
+		CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */; };
+		CE50B7372A0BC46B00348E5C /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */; };
 		CE6849712A0988EE00E89E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849702A0988EE00E89E39 /* AppDelegate.swift */; };
 		CE6849732A0988EE00E89E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849722A0988EE00E89E39 /* SceneDelegate.swift */; };
 		CE6849752A0988EE00E89E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849742A0988EE00E89E39 /* ViewController.swift */; };
 		CE6849782A0988EE00E89E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6849762A0988EE00E89E39 /* Main.storyboard */; };
 		CE68497A2A0988F000E89E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6849792A0988F000E89E39 /* Assets.xcassets */; };
 		CE68497D2A0988F000E89E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */; };
+		CE68498E2A0A512100E89E39 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE68498B2A0A512100E89E39 /* Overpass-Bold.ttf */; };
+		CE68498F2A0A512100E89E39 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE68498C2A0A512100E89E39 /* Overpass-Regular.ttf */; };
+		CE6849902A0A512100E89E39 /* Overpass-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE68498D2A0A512100E89E39 /* Overpass-Black.ttf */; };
+		CE6849942A0A6BE300E89E39 /* WeatherTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849932A0A6BE300E89E39 /* WeatherTodayView.swift */; };
+		CE6849962A0A6D4600E89E39 /* HomeViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849952A0A6D4600E89E39 /* HomeViewControllerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162B029E3C967D86F482607E /* Pods-Neobis_iOS_UIScreens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_iOS_UIScreens.debug.xcconfig"; path = "Target Support Files/Pods-Neobis_iOS_UIScreens/Pods-Neobis_iOS_UIScreens.debug.xcconfig"; sourceTree = "<group>"; };
+		2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neobis_iOS_UIScreens.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04AE477E844113840876F70 /* Pods-Neobis_iOS_UIScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_iOS_UIScreens.release.xcconfig"; path = "Target Support Files/Pods-Neobis_iOS_UIScreens/Pods-Neobis_iOS_UIScreens.release.xcconfig"; sourceTree = "<group>"; };
+		CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForWeekView.swift; sourceTree = "<group>"; };
+		CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
+		CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForWeekViewController.swift; sourceTree = "<group>"; };
+		CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUILabel.swift; sourceTree = "<group>"; };
+		CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImageView.swift; sourceTree = "<group>"; };
 		CE68496D2A0988EE00E89E39 /* Neobis_iOS_UIScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_UIScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6849702A0988EE00E89E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6849722A0988EE00E89E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,11 @@
 		CE6849792A0988F000E89E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE68497C2A0988F000E89E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE68497E2A0988F000E89E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE68498B2A0A512100E89E39 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Bold.ttf"; sourceTree = "<group>"; };
+		CE68498C2A0A512100E89E39 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Regular.ttf"; sourceTree = "<group>"; };
+		CE68498D2A0A512100E89E39 /* Overpass-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Black.ttf"; sourceTree = "<group>"; };
+		CE6849932A0A6BE300E89E39 /* WeatherTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTodayView.swift; sourceTree = "<group>"; };
+		CE6849952A0A6D4600E89E39 /* HomeViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B414354D26908FE0CFD7E27 /* libPods-Neobis_iOS_UIScreens.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD7F4FB44405D635795CBA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				162B029E3C967D86F482607E /* Pods-Neobis_iOS_UIScreens.debug.xcconfig */,
+				C04AE477E844113840876F70 /* Pods-Neobis_iOS_UIScreens.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE6849642A0988EE00E89E39 = {
 			isa = PBXGroup;
 			children = (
 				CE68496F2A0988EE00E89E39 /* Neobis_iOS_UIScreens */,
 				CE68496E2A0988EE00E89E39 /* Products */,
+				CD7F4FB44405D635795CBA1C /* Pods */,
+				E375687DF51FC734C09A4702 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,57 @@
 		CE68496F2A0988EE00E89E39 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CE6849912A0A66D200E89E39 /* Views */,
+				CE6849922A0A66E300E89E39 /* Controller */,
+				CE6849842A0A506F00E89E39 /* Fonts */,
 				CE6849702A0988EE00E89E39 /* AppDelegate.swift */,
 				CE6849722A0988EE00E89E39 /* SceneDelegate.swift */,
-				CE6849742A0988EE00E89E39 /* ViewController.swift */,
 				CE6849762A0988EE00E89E39 /* Main.storyboard */,
 				CE6849792A0988F000E89E39 /* Assets.xcassets */,
 				CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */,
 				CE68497E2A0988F000E89E39 /* Info.plist */,
+				CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */,
+				CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */,
 			);
 			path = Neobis_iOS_UIScreens;
+			sourceTree = "<group>";
+		};
+		CE6849842A0A506F00E89E39 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE68498D2A0A512100E89E39 /* Overpass-Black.ttf */,
+				CE68498B2A0A512100E89E39 /* Overpass-Bold.ttf */,
+				CE68498C2A0A512100E89E39 /* Overpass-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE6849912A0A66D200E89E39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6849952A0A6D4600E89E39 /* HomeViewControllerCell.swift */,
+				CE6849932A0A6BE300E89E39 /* WeatherTodayView.swift */,
+				CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6849922A0A66E300E89E39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6849742A0988EE00E89E39 /* ViewController.swift */,
+				CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */,
+				CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E375687DF51FC734C09A4702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6849812A0988F000E89E39 /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreens" */;
 			buildPhases = (
+				847466472B3E839D6AF4CFBF /* [CP] Check Pods Manifest.lock */,
 				CE6849692A0988EE00E89E39 /* Sources */,
 				CE68496A2A0988EE00E89E39 /* Frameworks */,
 				CE68496B2A0988EE00E89E39 /* Resources */,
@@ -125,22 +204,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68498F2A0A512100E89E39 /* Overpass-Regular.ttf in Resources */,
 				CE68497D2A0988F000E89E39 /* LaunchScreen.storyboard in Resources */,
 				CE68497A2A0988F000E89E39 /* Assets.xcassets in Resources */,
+				CE68498E2A0A512100E89E39 /* Overpass-Bold.ttf in Resources */,
 				CE6849782A0988EE00E89E39 /* Main.storyboard in Resources */,
+				CE6849902A0A512100E89E39 /* Overpass-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		847466472B3E839D6AF4CFBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neobis_iOS_UIScreens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE6849692A0988EE00E89E39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6849942A0A6BE300E89E39 /* WeatherTodayView.swift in Sources */,
+				CE50B7372A0BC46B00348E5C /* CustomUIImageView.swift in Sources */,
+				CE50B72F2A0A74F500348E5C /* WeatherForWeekView.swift in Sources */,
+				CE50B7312A0A757800348E5C /* WeatherHomeViewController.swift in Sources */,
+				CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */,
+				CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */,
 				CE6849752A0988EE00E89E39 /* ViewController.swift in Sources */,
 				CE6849712A0988EE00E89E39 /* AppDelegate.swift in Sources */,
 				CE6849732A0988EE00E89E39 /* SceneDelegate.swift in Sources */,
+				CE6849962A0A6D4600E89E39 /* HomeViewControllerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +396,7 @@
 		};
 		CE6849822A0988F000E89E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162B029E3C967D86F482607E /* Pods-Neobis_iOS_UIScreens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +425,7 @@
 		};
 		CE6849832A0988F000E89E39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04AE477E844113840876F70 /* Pods-Neobis_iOS_UIScreens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
