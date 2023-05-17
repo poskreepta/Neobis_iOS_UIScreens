@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B414354D26908FE0CFD7E27 /* libPods-Neobis_iOS_UIScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */; };
 		CE29313D2A0E4C330051A796 /* AdaptiveLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */; };
-		CE29313F2A0E55640051A796 /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29313E2A0E55640051A796 /* Extension + UIColor.swift */; };
+		CE29313F2A0E55640051A796 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29313E2A0E55640051A796 /* UIColor + Extension.swift */; };
 		CE2931432A0FDDBC0051A796 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931422A0FDDBC0051A796 /* Fonts.swift */; };
 		CE2931492A0FF98D0051A796 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931482A0FF98D0051A796 /* Raleway-Light.ttf */; };
 		CE29314B2A1035B00051A796 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29314A2A1035B00051A796 /* WeatherModel.swift */; };
@@ -43,12 +43,11 @@
 		CE2931BD2A14C5820051A796 /* LeftImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931BC2A14C5820051A796 /* LeftImageCollectionViewCell.swift */; };
 		CE50B7312A0A757800348E5C /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */; };
 		CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */; };
-		CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */; };
+		CE50B7352A0BBA0100348E5C /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7342A0BBA0100348E5C /* UILabel + Extension.swift */; };
 		CE50B7372A0BC46B00348E5C /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */; };
 		CE6849712A0988EE00E89E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849702A0988EE00E89E39 /* AppDelegate.swift */; };
 		CE6849732A0988EE00E89E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849722A0988EE00E89E39 /* SceneDelegate.swift */; };
 		CE6849752A0988EE00E89E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6849742A0988EE00E89E39 /* ViewController.swift */; };
-		CE6849782A0988EE00E89E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6849762A0988EE00E89E39 /* Main.storyboard */; };
 		CE68497A2A0988F000E89E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6849792A0988F000E89E39 /* Assets.xcassets */; };
 		CE68497D2A0988F000E89E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */; };
 		CE68498E2A0A512100E89E39 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE68498B2A0A512100E89E39 /* Overpass-Bold.ttf */; };
@@ -63,7 +62,7 @@
 		2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neobis_iOS_UIScreens.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04AE477E844113840876F70 /* Pods-Neobis_iOS_UIScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_iOS_UIScreens.release.xcconfig"; path = "Target Support Files/Pods-Neobis_iOS_UIScreens/Pods-Neobis_iOS_UIScreens.release.xcconfig"; sourceTree = "<group>"; };
 		CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutHelper.swift; sourceTree = "<group>"; };
-		CE29313E2A0E55640051A796 /* Extension + UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
+		CE29313E2A0E55640051A796 /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		CE2931422A0FDDBC0051A796 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CE2931482A0FF98D0051A796 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
 		CE29314A2A1035B00051A796 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -98,13 +97,12 @@
 		CE2931BE2A14DE610051A796 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
 		CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForWeekViewController.swift; sourceTree = "<group>"; };
-		CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUILabel.swift; sourceTree = "<group>"; };
+		CE50B7342A0BBA0100348E5C /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImageView.swift; sourceTree = "<group>"; };
 		CE68496D2A0988EE00E89E39 /* Neobis_iOS_UIScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_UIScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6849702A0988EE00E89E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6849722A0988EE00E89E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE6849742A0988EE00E89E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE6849772A0988EE00E89E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6849792A0988F000E89E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE68497C2A0988F000E89E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE68497E2A0988F000E89E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -313,6 +311,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		CE2931BF2A1528940051A796 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B7342A0BBA0100348E5C /* UILabel + Extension.swift */,
+				CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */,
+				CE29313E2A0E55640051A796 /* UIColor + Extension.swift */,
+				CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		CE6849642A0988EE00E89E39 = {
 			isa = PBXGroup;
 			children = (
@@ -335,24 +344,20 @@
 		CE68496F2A0988EE00E89E39 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CE2931BF2A1528940051A796 /* Helpers */,
+				CE6849922A0A66E300E89E39 /* Controller */,
+				CE6849912A0A66D200E89E39 /* Views */,
 				CE2931AB2A1388620051A796 /* SinglesScreen */,
 				CE29319B2A1271590051A796 /* TravelScreen */,
 				CE2931842A1234720051A796 /* FinanceSrceen */,
 				CE2931502A113CF80051A796 /* CryptoScreen */,
 				CE2931442A0FF6080051A796 /* WeatherScreen */,
-				CE6849912A0A66D200E89E39 /* Views */,
-				CE6849922A0A66E300E89E39 /* Controller */,
 				CE6849842A0A506F00E89E39 /* Fonts */,
 				CE6849702A0988EE00E89E39 /* AppDelegate.swift */,
 				CE6849722A0988EE00E89E39 /* SceneDelegate.swift */,
-				CE6849762A0988EE00E89E39 /* Main.storyboard */,
 				CE6849792A0988F000E89E39 /* Assets.xcassets */,
 				CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */,
 				CE68497E2A0988F000E89E39 /* Info.plist */,
-				CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */,
-				CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */,
-				CE29313E2A0E55640051A796 /* Extension + UIColor.swift */,
-				CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */,
 			);
 			path = Neobis_iOS_UIScreens;
 			sourceTree = "<group>";
@@ -477,7 +482,6 @@
 				CE68498E2A0A512100E89E39 /* Overpass-Bold.ttf in Resources */,
 				CE2931942A123D3A0051A796 /* Inter-Light.ttf in Resources */,
 				CE2931962A123D3A0051A796 /* Inter-Medium.ttf in Resources */,
-				CE6849782A0988EE00E89E39 /* Main.storyboard in Resources */,
 				CE6849902A0A512100E89E39 /* Overpass-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,9 +535,9 @@
 				CE2931A42A1274290051A796 /* TravelHomeViewController.swift in Sources */,
 				CE29318B2A123B9D0051A796 /* FinanceTapBarController.swift in Sources */,
 				CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */,
-				CE29313F2A0E55640051A796 /* Extension + UIColor.swift in Sources */,
+				CE29313F2A0E55640051A796 /* UIColor + Extension.swift in Sources */,
 				CE2931782A11538A0051A796 /* CryptoHomeViewController.swift in Sources */,
-				CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */,
+				CE50B7352A0BBA0100348E5C /* UILabel + Extension.swift in Sources */,
 				CE2931B62A13948D0051A796 /* SinglesModel.swift in Sources */,
 				CE2931AA2A13729F0051A796 /* TravelCollectionViewCell.swift in Sources */,
 				CE2931802A115D300051A796 /* CryptoCollectionViewCell.swift in Sources */,
@@ -551,14 +555,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE6849762A0988EE00E89E39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE6849772A0988EE00E89E39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -697,7 +693,7 @@
 				INFOPLIST_FILE = Neobis_iOS_UIScreens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -726,7 +722,7 @@
 				INFOPLIST_FILE = Neobis_iOS_UIScreens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
