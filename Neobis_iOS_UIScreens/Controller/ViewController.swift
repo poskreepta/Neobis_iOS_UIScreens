@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
-    private let screens: [String: UIViewController] = ["Weather App": WeatherHomeViewController()]
+    private let screens: [String: UIViewController] = ["Weather App": WeatherHomeViewController(), "Crypto App": CryptoTapBarController(), "Finance App": FinanceTapBarController(),"Travel App": TravelHomeViewController(), "Singles App": SinglesTapBarController()]
     
 //    "Crypto App", "Finance App", "Travel App", "Singles App"
     private let cellId = "cellId"
@@ -48,15 +48,16 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
   
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width - 60, height: view.frame.height - 15)
+        return CGSize(width: view.frame.width - 20, height: view.frame.height / 5)
     }
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let screenViewControllers = Array(screens.values)
         let selectedViewController = screenViewControllers[indexPath.item]
-        selectedViewController.modalPresentationStyle = .fullScreen
-        present(selectedViewController, animated: true)
+        navigationController?.pushViewController(selectedViewController, animated: true)
+//        selectedViewController.modalPresentationStyle = .fullScreen
+//        present(selectedViewController, animated: true)
     }
     
     

@@ -2,6 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Overpass-Regular.ttf</string>
+		<string>Overpass-Bold.ttf</string>
+		<string>Overpass-Black.ttf</string>
+		<string>Raleway-Light.ttf</string>
+		<string>SegoeUI-Bold.ttf</string>
+		<string>SegoeUI-Regular.ttf</string>
+		<string>SegoeUI-Semibold.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>NotoSans-Medium.ttf</string>
+		<string>NotoSans-Regular.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

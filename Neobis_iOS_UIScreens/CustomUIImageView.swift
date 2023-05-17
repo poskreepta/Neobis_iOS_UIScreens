@@ -12,6 +12,7 @@ class CustomImageView: UIImageView {
         didSet {
             if let imageName = imageName {
                 image = UIImage(named: imageName)
+                self.translatesAutoresizingMaskIntoConstraints = false
             } else {
                 image = nil
             }

@@ -8,7 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		4B414354D26908FE0CFD7E27 /* libPods-Neobis_iOS_UIScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */; };
-		CE50B72F2A0A74F500348E5C /* WeatherForWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */; };
+		CE29313D2A0E4C330051A796 /* AdaptiveLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */; };
+		CE29313F2A0E55640051A796 /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29313E2A0E55640051A796 /* Extension + UIColor.swift */; };
+		CE2931432A0FDDBC0051A796 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931422A0FDDBC0051A796 /* Fonts.swift */; };
+		CE2931492A0FF98D0051A796 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931482A0FF98D0051A796 /* Raleway-Light.ttf */; };
+		CE29314B2A1035B00051A796 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29314A2A1035B00051A796 /* WeatherModel.swift */; };
+		CE29314D2A111CA50051A796 /* HWeatherTodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29314C2A111CA50051A796 /* HWeatherTodayCollectionViewCell.swift */; };
+		CE29314F2A1126E30051A796 /* VWeatherWeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29314E2A1126E30051A796 /* VWeatherWeekCollectionViewCell.swift */; };
+		CE2931752A1151630051A796 /* CryptoTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931742A1151630051A796 /* CryptoTapBarController.swift */; };
+		CE2931782A11538A0051A796 /* CryptoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931772A11538A0051A796 /* CryptoHomeViewController.swift */; };
+		CE29317C2A1158E20051A796 /* SegoeUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931792A1158E20051A796 /* SegoeUI-Regular.ttf */; };
+		CE29317D2A1158E20051A796 /* SegoeUI-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE29317A2A1158E20051A796 /* SegoeUI-Semibold.ttf */; };
+		CE29317E2A1158E20051A796 /* SegoeUI-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE29317B2A1158E20051A796 /* SegoeUI-Bold.ttf */; };
+		CE2931802A115D300051A796 /* CryptoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29317F2A115D2F0051A796 /* CryptoCollectionViewCell.swift */; };
+		CE2931832A1164440051A796 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931822A1164440051A796 /* CryptoModel.swift */; };
+		CE2931892A123A7B0051A796 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931882A123A7B0051A796 /* Finance.swift */; };
+		CE29318B2A123B9D0051A796 /* FinanceTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29318A2A123B9D0051A796 /* FinanceTapBarController.swift */; };
+		CE29318D2A123BC00051A796 /* FinanceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29318C2A123BC00051A796 /* FinanceHomeViewController.swift */; };
+		CE29318F2A123BF30051A796 /* FinanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29318E2A123BF30051A796 /* FinanceCollectionViewCell.swift */; };
+		CE2931942A123D3A0051A796 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931902A123D3A0051A796 /* Inter-Light.ttf */; };
+		CE2931952A123D3A0051A796 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931912A123D3A0051A796 /* Inter-Bold.ttf */; };
+		CE2931962A123D3A0051A796 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931922A123D3A0051A796 /* Inter-Medium.ttf */; };
+		CE2931972A123D3A0051A796 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931932A123D3A0051A796 /* Inter-Regular.ttf */; };
+		CE2931992A123DAF0051A796 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931982A123DAF0051A796 /* Inter-SemiBold.ttf */; };
+		CE2931A02A1273740051A796 /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29319F2A1273740051A796 /* TravelModel.swift */; };
+		CE2931A42A1274290051A796 /* TravelHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931A32A1274290051A796 /* TravelHomeViewController.swift */; };
+		CE2931A72A1363CD0051A796 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931A52A1363CD0051A796 /* NotoSans-Regular.ttf */; };
+		CE2931A82A1363CD0051A796 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2931A62A1363CD0051A796 /* NotoSans-Medium.ttf */; };
+		CE2931AA2A13729F0051A796 /* TravelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931A92A13729F0051A796 /* TravelCollectionViewCell.swift */; };
+		CE2931AF2A1393910051A796 /* RightImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931AE2A1393910051A796 /* RightImageCollectionViewCell.swift */; };
+		CE2931B42A1394740051A796 /* SinglesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931B32A1394740051A796 /* SinglesHomeViewController.swift */; };
+		CE2931B62A13948D0051A796 /* SinglesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931B52A13948D0051A796 /* SinglesModel.swift */; };
+		CE2931BB2A1399350051A796 /* SinglesTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931BA2A1399350051A796 /* SinglesTapBarController.swift */; };
+		CE2931BD2A14C5820051A796 /* LeftImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2931BC2A14C5820051A796 /* LeftImageCollectionViewCell.swift */; };
 		CE50B7312A0A757800348E5C /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */; };
 		CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */; };
 		CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */; };
@@ -30,7 +62,40 @@
 		162B029E3C967D86F482607E /* Pods-Neobis_iOS_UIScreens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_iOS_UIScreens.debug.xcconfig"; path = "Target Support Files/Pods-Neobis_iOS_UIScreens/Pods-Neobis_iOS_UIScreens.debug.xcconfig"; sourceTree = "<group>"; };
 		2F7C95FA1A0218DE4F9FD8CD /* libPods-Neobis_iOS_UIScreens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neobis_iOS_UIScreens.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04AE477E844113840876F70 /* Pods-Neobis_iOS_UIScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neobis_iOS_UIScreens.release.xcconfig"; path = "Target Support Files/Pods-Neobis_iOS_UIScreens/Pods-Neobis_iOS_UIScreens.release.xcconfig"; sourceTree = "<group>"; };
-		CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForWeekView.swift; sourceTree = "<group>"; };
+		CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutHelper.swift; sourceTree = "<group>"; };
+		CE29313E2A0E55640051A796 /* Extension + UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
+		CE2931422A0FDDBC0051A796 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CE2931482A0FF98D0051A796 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		CE29314A2A1035B00051A796 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CE29314C2A111CA50051A796 /* HWeatherTodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWeatherTodayCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE29314E2A1126E30051A796 /* VWeatherWeekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWeatherWeekCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931742A1151630051A796 /* CryptoTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTapBarController.swift; sourceTree = "<group>"; };
+		CE2931772A11538A0051A796 /* CryptoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHomeViewController.swift; sourceTree = "<group>"; };
+		CE2931792A1158E20051A796 /* SegoeUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeUI-Regular.ttf"; sourceTree = "<group>"; };
+		CE29317A2A1158E20051A796 /* SegoeUI-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeUI-Semibold.ttf"; sourceTree = "<group>"; };
+		CE29317B2A1158E20051A796 /* SegoeUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeUI-Bold.ttf"; sourceTree = "<group>"; };
+		CE29317F2A115D2F0051A796 /* CryptoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931822A1164440051A796 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		CE2931882A123A7B0051A796 /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		CE29318A2A123B9D0051A796 /* FinanceTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTapBarController.swift; sourceTree = "<group>"; };
+		CE29318C2A123BC00051A796 /* FinanceHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeViewController.swift; sourceTree = "<group>"; };
+		CE29318E2A123BF30051A796 /* FinanceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931902A123D3A0051A796 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		CE2931912A123D3A0051A796 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		CE2931922A123D3A0051A796 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		CE2931932A123D3A0051A796 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		CE2931982A123DAF0051A796 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE29319F2A1273740051A796 /* TravelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelModel.swift; sourceTree = "<group>"; };
+		CE2931A32A1274290051A796 /* TravelHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHomeViewController.swift; sourceTree = "<group>"; };
+		CE2931A52A1363CD0051A796 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		CE2931A62A1363CD0051A796 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		CE2931A92A13729F0051A796 /* TravelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931AE2A1393910051A796 /* RightImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931B32A1394740051A796 /* SinglesHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesHomeViewController.swift; sourceTree = "<group>"; };
+		CE2931B52A13948D0051A796 /* SinglesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesModel.swift; sourceTree = "<group>"; };
+		CE2931BA2A1399350051A796 /* SinglesTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesTapBarController.swift; sourceTree = "<group>"; };
+		CE2931BC2A14C5820051A796 /* LeftImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2931BE2A14DE610051A796 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
 		CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForWeekViewController.swift; sourceTree = "<group>"; };
 		CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUILabel.swift; sourceTree = "<group>"; };
@@ -71,9 +136,187 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE2931442A0FF6080051A796 /* WeatherScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931472A0FF66A0051A796 /* Model */,
+				CE2931452A0FF6490051A796 /* View */,
+				CE2931462A0FF65E0051A796 /* Controllers */,
+			);
+			path = WeatherScreen;
+			sourceTree = "<group>";
+		};
+		CE2931452A0FF6490051A796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE6849932A0A6BE300E89E39 /* WeatherTodayView.swift */,
+				CE29314C2A111CA50051A796 /* HWeatherTodayCollectionViewCell.swift */,
+				CE29314E2A1126E30051A796 /* VWeatherWeekCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2931462A0FF65E0051A796 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */,
+				CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE2931472A0FF66A0051A796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE29314A2A1035B00051A796 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2931502A113CF80051A796 /* CryptoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931812A1164290051A796 /* Model */,
+				CE2931762A11516C0051A796 /* Controllers */,
+				CE2931512A113D070051A796 /* View */,
+			);
+			path = CryptoScreen;
+			sourceTree = "<group>";
+		};
+		CE2931512A113D070051A796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE29317F2A115D2F0051A796 /* CryptoCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2931762A11516C0051A796 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931742A1151630051A796 /* CryptoTapBarController.swift */,
+				CE2931772A11538A0051A796 /* CryptoHomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE2931812A1164290051A796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931822A1164440051A796 /* CryptoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2931842A1234720051A796 /* FinanceSrceen */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931852A1234A10051A796 /* Model */,
+				CE2931872A1234BC0051A796 /* View */,
+				CE2931862A1234AD0051A796 /* Controllers */,
+			);
+			path = FinanceSrceen;
+			sourceTree = "<group>";
+		};
+		CE2931852A1234A10051A796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931882A123A7B0051A796 /* Finance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2931862A1234AD0051A796 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE29318A2A123B9D0051A796 /* FinanceTapBarController.swift */,
+				CE29318C2A123BC00051A796 /* FinanceHomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE2931872A1234BC0051A796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE29318E2A123BF30051A796 /* FinanceCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE29319B2A1271590051A796 /* TravelScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE29319E2A12717B0051A796 /* Controller */,
+				CE29319D2A1271730051A796 /* View */,
+				CE29319C2A12716C0051A796 /* Model */,
+			);
+			path = TravelScreen;
+			sourceTree = "<group>";
+		};
+		CE29319C2A12716C0051A796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE29319F2A1273740051A796 /* TravelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE29319D2A1271730051A796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931A92A13729F0051A796 /* TravelCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE29319E2A12717B0051A796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931A32A1274290051A796 /* TravelHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2931AB2A1388620051A796 /* SinglesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931B22A1393D10051A796 /* Controller */,
+				CE2931B12A1393CA0051A796 /* View */,
+				CE2931B02A1393BA0051A796 /* Model */,
+			);
+			path = SinglesScreen;
+			sourceTree = "<group>";
+		};
+		CE2931B02A1393BA0051A796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931B52A13948D0051A796 /* SinglesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2931B12A1393CA0051A796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931AE2A1393910051A796 /* RightImageCollectionViewCell.swift */,
+				CE2931BC2A14C5820051A796 /* LeftImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2931B22A1393D10051A796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE2931B32A1394740051A796 /* SinglesHomeViewController.swift */,
+				CE2931BA2A1399350051A796 /* SinglesTapBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CE6849642A0988EE00E89E39 = {
 			isa = PBXGroup;
 			children = (
+				CE2931BE2A14DE610051A796 /* README.md */,
 				CE68496F2A0988EE00E89E39 /* Neobis_iOS_UIScreens */,
 				CE68496E2A0988EE00E89E39 /* Products */,
 				CD7F4FB44405D635795CBA1C /* Pods */,
@@ -92,6 +335,11 @@
 		CE68496F2A0988EE00E89E39 /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CE2931AB2A1388620051A796 /* SinglesScreen */,
+				CE29319B2A1271590051A796 /* TravelScreen */,
+				CE2931842A1234720051A796 /* FinanceSrceen */,
+				CE2931502A113CF80051A796 /* CryptoScreen */,
+				CE2931442A0FF6080051A796 /* WeatherScreen */,
 				CE6849912A0A66D200E89E39 /* Views */,
 				CE6849922A0A66E300E89E39 /* Controller */,
 				CE6849842A0A506F00E89E39 /* Fonts */,
@@ -102,6 +350,8 @@
 				CE68497B2A0988F000E89E39 /* LaunchScreen.storyboard */,
 				CE68497E2A0988F000E89E39 /* Info.plist */,
 				CE50B7342A0BBA0100348E5C /* CustomUILabel.swift */,
+				CE29313C2A0E4C330051A796 /* AdaptiveLayoutHelper.swift */,
+				CE29313E2A0E55640051A796 /* Extension + UIColor.swift */,
 				CE50B7362A0BC46B00348E5C /* CustomUIImageView.swift */,
 			);
 			path = Neobis_iOS_UIScreens;
@@ -111,8 +361,20 @@
 			isa = PBXGroup;
 			children = (
 				CE68498D2A0A512100E89E39 /* Overpass-Black.ttf */,
+				CE2931482A0FF98D0051A796 /* Raleway-Light.ttf */,
 				CE68498B2A0A512100E89E39 /* Overpass-Bold.ttf */,
 				CE68498C2A0A512100E89E39 /* Overpass-Regular.ttf */,
+				CE2931912A123D3A0051A796 /* Inter-Bold.ttf */,
+				CE2931902A123D3A0051A796 /* Inter-Light.ttf */,
+				CE2931922A123D3A0051A796 /* Inter-Medium.ttf */,
+				CE2931932A123D3A0051A796 /* Inter-Regular.ttf */,
+				CE2931982A123DAF0051A796 /* Inter-SemiBold.ttf */,
+				CE2931792A1158E20051A796 /* SegoeUI-Regular.ttf */,
+				CE29317B2A1158E20051A796 /* SegoeUI-Bold.ttf */,
+				CE29317A2A1158E20051A796 /* SegoeUI-Semibold.ttf */,
+				CE2931A62A1363CD0051A796 /* NotoSans-Medium.ttf */,
+				CE2931A52A1363CD0051A796 /* NotoSans-Regular.ttf */,
+				CE2931422A0FDDBC0051A796 /* Fonts.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -121,8 +383,6 @@
 			isa = PBXGroup;
 			children = (
 				CE6849952A0A6D4600E89E39 /* HomeViewControllerCell.swift */,
-				CE6849932A0A6BE300E89E39 /* WeatherTodayView.swift */,
-				CE50B72E2A0A74F500348E5C /* WeatherForWeekView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,8 +391,6 @@
 			isa = PBXGroup;
 			children = (
 				CE6849742A0988EE00E89E39 /* ViewController.swift */,
-				CE50B7302A0A757800348E5C /* WeatherHomeViewController.swift */,
-				CE50B7322A0A758D00348E5C /* WeatherForWeekViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,7 +465,18 @@
 				CE68498F2A0A512100E89E39 /* Overpass-Regular.ttf in Resources */,
 				CE68497D2A0988F000E89E39 /* LaunchScreen.storyboard in Resources */,
 				CE68497A2A0988F000E89E39 /* Assets.xcassets in Resources */,
+				CE2931992A123DAF0051A796 /* Inter-SemiBold.ttf in Resources */,
+				CE2931A72A1363CD0051A796 /* NotoSans-Regular.ttf in Resources */,
+				CE29317D2A1158E20051A796 /* SegoeUI-Semibold.ttf in Resources */,
+				CE29317C2A1158E20051A796 /* SegoeUI-Regular.ttf in Resources */,
+				CE29317E2A1158E20051A796 /* SegoeUI-Bold.ttf in Resources */,
+				CE2931972A123D3A0051A796 /* Inter-Regular.ttf in Resources */,
+				CE2931952A123D3A0051A796 /* Inter-Bold.ttf in Resources */,
+				CE2931492A0FF98D0051A796 /* Raleway-Light.ttf in Resources */,
+				CE2931A82A1363CD0051A796 /* NotoSans-Medium.ttf in Resources */,
 				CE68498E2A0A512100E89E39 /* Overpass-Bold.ttf in Resources */,
+				CE2931942A123D3A0051A796 /* Inter-Light.ttf in Resources */,
+				CE2931962A123D3A0051A796 /* Inter-Medium.ttf in Resources */,
 				CE6849782A0988EE00E89E39 /* Main.storyboard in Resources */,
 				CE6849902A0A512100E89E39 /* Overpass-Black.ttf in Resources */,
 			);
@@ -247,13 +516,34 @@
 			files = (
 				CE6849942A0A6BE300E89E39 /* WeatherTodayView.swift in Sources */,
 				CE50B7372A0BC46B00348E5C /* CustomUIImageView.swift in Sources */,
-				CE50B72F2A0A74F500348E5C /* WeatherForWeekView.swift in Sources */,
+				CE29318D2A123BC00051A796 /* FinanceHomeViewController.swift in Sources */,
+				CE2931A02A1273740051A796 /* TravelModel.swift in Sources */,
+				CE2931BD2A14C5820051A796 /* LeftImageCollectionViewCell.swift in Sources */,
+				CE2931AF2A1393910051A796 /* RightImageCollectionViewCell.swift in Sources */,
+				CE29314D2A111CA50051A796 /* HWeatherTodayCollectionViewCell.swift in Sources */,
+				CE29314F2A1126E30051A796 /* VWeatherWeekCollectionViewCell.swift in Sources */,
+				CE2931BB2A1399350051A796 /* SinglesTapBarController.swift in Sources */,
+				CE2931B42A1394740051A796 /* SinglesHomeViewController.swift in Sources */,
+				CE2931432A0FDDBC0051A796 /* Fonts.swift in Sources */,
 				CE50B7312A0A757800348E5C /* WeatherHomeViewController.swift in Sources */,
+				CE29318F2A123BF30051A796 /* FinanceCollectionViewCell.swift in Sources */,
+				CE2931752A1151630051A796 /* CryptoTapBarController.swift in Sources */,
+				CE2931A42A1274290051A796 /* TravelHomeViewController.swift in Sources */,
+				CE29318B2A123B9D0051A796 /* FinanceTapBarController.swift in Sources */,
 				CE50B7332A0A758D00348E5C /* WeatherForWeekViewController.swift in Sources */,
+				CE29313F2A0E55640051A796 /* Extension + UIColor.swift in Sources */,
+				CE2931782A11538A0051A796 /* CryptoHomeViewController.swift in Sources */,
 				CE50B7352A0BBA0100348E5C /* CustomUILabel.swift in Sources */,
+				CE2931B62A13948D0051A796 /* SinglesModel.swift in Sources */,
+				CE2931AA2A13729F0051A796 /* TravelCollectionViewCell.swift in Sources */,
+				CE2931802A115D300051A796 /* CryptoCollectionViewCell.swift in Sources */,
+				CE2931892A123A7B0051A796 /* Finance.swift in Sources */,
 				CE6849752A0988EE00E89E39 /* ViewController.swift in Sources */,
 				CE6849712A0988EE00E89E39 /* AppDelegate.swift in Sources */,
+				CE29314B2A1035B00051A796 /* WeatherModel.swift in Sources */,
+				CE2931832A1164440051A796 /* CryptoModel.swift in Sources */,
 				CE6849732A0988EE00E89E39 /* SceneDelegate.swift in Sources */,
+				CE29313D2A0E4C330051A796 /* AdaptiveLayoutHelper.swift in Sources */,
 				CE6849962A0A6D4600E89E39 /* HomeViewControllerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
