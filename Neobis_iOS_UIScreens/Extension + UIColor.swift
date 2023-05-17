@@ -33,6 +33,5 @@ func colorComponentFrom(colorString: String, start: Int, length: Int) -> CGFloat
     }
     let hexFloat: CGFloat = CGFloat(hexComponent)
     let floatValue: CGFloat = CGFloat(hexFloat / 255.0)
-    print(floatValue)
     return floatValue
 }

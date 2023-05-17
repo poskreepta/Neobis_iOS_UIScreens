@@ -83,7 +83,6 @@ class WeatherHomeViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         setupConstraints()
-        print("WeatherHomeViewController is loaded")
     }
     
     // MARK: Setup Views
