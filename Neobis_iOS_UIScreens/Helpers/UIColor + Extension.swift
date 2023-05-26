@@ -1,8 +1,8 @@
 //
-//  UIColor+Extension.swift
+//  CustomUIImageView.swift
 //  Neobis_iOS_UIScreens
 //
-//  Created by G G on 06.04.2023.
+//  Created by poskreepta on 10.05.23.
 //
 
 import UIKit
